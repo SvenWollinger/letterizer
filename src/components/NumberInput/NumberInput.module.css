@@ -1,0 +1,20 @@
+.input {
+    --spacing: 0.5ch;
+    display: flex;
+    flex-direction: row;
+    margin: 4px;
+
+    label {
+        margin-right: 1ch;
+    }
+}
+
+.label {
+    user-select: none;
+    cursor: pointer;
+    margin: 0 var(--spacing) 0 var(--spacing);
+}
+
+.button {
+    user-select: none;
+}
